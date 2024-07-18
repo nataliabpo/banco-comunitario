@@ -1,5 +1,5 @@
-import { Conta } from '../conta/conta.model';
-import { Gerente } from '../gerente/gerente.model';
+import { Conta } from './conta.model';
+import { Gerente } from './gerente.model';
 
 export class Cliente {
   constructor(

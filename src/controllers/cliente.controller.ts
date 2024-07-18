@@ -1,6 +1,6 @@
 import { Controller, Post, Body } from '@nestjs/common';
-import { ClienteService } from './cliente.service';
-import { Gerente } from '../gerente/gerente.model';
+import { ClienteService } from '../services/cliente.service';
+import { Gerente } from '../models/gerente.model';
 
 @Controller('clientes')
 export class ClienteController {

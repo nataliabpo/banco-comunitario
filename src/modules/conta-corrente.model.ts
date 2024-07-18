@@ -1,5 +1,5 @@
 import { Conta } from './conta.model';
-import { Cliente } from '../cliente/cliente.model';
+import { Cliente } from '../models/cliente.model';
 
 export class ContaCorrente extends Conta {
   constructor(

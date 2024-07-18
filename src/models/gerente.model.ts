@@ -1,4 +1,4 @@
-import { Cliente } from '../cliente/cliente.model';
+import { Cliente } from './cliente.model';
 import { Conta } from '../conta/conta.model';
 
 export class Gerente {

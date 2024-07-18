@@ -1,4 +1,4 @@
-import { Cliente } from '../cliente/cliente.model';
+import { Cliente } from '../models/cliente.model';
 
 export abstract class Conta {
   constructor(
